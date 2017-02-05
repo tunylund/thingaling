@@ -1,11 +1,9 @@
 import test from 'ava'
-import thing from '../src/thing.js'
-import lingApi from 'ling'
+import thingApi from '../thingApi.js'
 
 test('should ling a thing', t => {
   t.plan(1)
-  const ling = lingApi('1.0.0')
-  const athing = thing(ling)
-  return athing().then(result => t.is(result, 'thingaling'))
+  const thing = thingApi('1.0.0')
+  return thing().then(result => t.is(result, 'thingaling'))
 })
 
