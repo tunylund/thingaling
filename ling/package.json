@@ -1,0 +1,12 @@
+{
+  "name": "ling",
+  "version": "1.0.0",
+  "main": "lingApi.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "node --harmony-async-await node_modules/.bin/ava *-tests/**/*.js"
+  },
+  "devDependencies": {
+    "ava": "^0.18.1"
+  }
+}
