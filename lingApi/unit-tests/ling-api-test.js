@@ -1,6 +1,6 @@
 import test from 'ava'
-import lingApi from './../lingApi'
-import ling from './../src/ling'
+import lingApi from './../src/lingApi'
+import ling from 'ling'
 
 test('should provide a ling api', t => {
   const aling = lingApi('1.0.0')

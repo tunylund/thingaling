@@ -1,4 +1,4 @@
-const lingApi = require('ling')
+const lingApi = require('lingApi')
 const thing = require('./src/thing.js')
 
 module.exports = thingApi

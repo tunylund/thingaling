@@ -8,7 +8,7 @@
     "test": "node --harmony-async-await node_modules/.bin/ava *-tests/**/*.js"
   },
   "dependencies": {
-    "ling": "file:../ling"
+    "lingApi": "file:../lingApi"
   },
   "devDependencies": {
     "ava": "^0.18.1"
